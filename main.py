@@ -14,7 +14,7 @@ app = FastAPI()
 # Add CORS middleware configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "https://yourfrontend.com", "https://spotify-frontend-hazel.vercel.app/"],
+    allow_origins=["http://localhost:3000", "https://yourfrontend.com", "https://spotify-frontend-hazel.vercel.app"],
     allow_credentials=True,
     allow_methods=["GET", "POST"],
     allow_headers=["*"],
